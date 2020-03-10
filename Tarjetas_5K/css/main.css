@@ -1,0 +1,29 @@
+/*Campos del formulario válido e inválido*/
+input:invalid{
+	border: 1px solid red;
+}
+input:valid{
+	border: 1px solid green;
+}
+/*Body*/
+body{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	background: url(../img/matafuego.jpg) no-repeat center center fixed;
+	background-size: cover;
+
+}
+/*Titulo*/
+h1{
+	font-family: 'Chela One', cursive;
+	margin-top: 15px;
+	text-align: center;
+}
+.izquierda{
+
+	float: left;
+	width: 50%;
+}
+.derecha{
+	float: right;
+	width: 50%;
+}
